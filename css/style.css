@@ -1,0 +1,25 @@
+<?php
+header('content-type:text/css');
+echo <<<FINCSS;
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+background:-webkit-linear-gradient( white) ;
+}
+#scroll{
+
+        border:1px solid;
+
+        height:200px;
+
+        width:1500px;
+
+        overflow-y:scroll;
+
+        overflow-x:hidden;
+
+    }
+FINCSS;
+?>
